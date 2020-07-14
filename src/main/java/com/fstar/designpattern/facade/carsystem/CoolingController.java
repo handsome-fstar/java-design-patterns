@@ -33,5 +33,4 @@ public class CoolingController {
         System.out.println("冷却控制器停止");
         radiator.off();
     }
-
 }
