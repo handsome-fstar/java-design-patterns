@@ -11,9 +11,9 @@ public interface Observer {
 ```
 **NumberGenerator抽象类**  
 NumberGenerator是“被观察类”的抽象，具体的被观察类，需要继承这个抽象类。  
-observers字段中保存各个观察者，本例子中保存DigitObserver和GraphObserver  
-addObserver用于注册观察者，removeObserver用于删除观察者  
-notifyObservers会向所有的观察者发出通知，告诉他们我的值修改了
+observers字段中保存各个观察者，本例子中保存DigitObserver和GraphObserver。  
+addObserver用于注册观察者，removeObserver用于删除观察者。  
+notifyObservers会向所有的观察者发出通知，告诉他们我的值修改了。
 ```java
 public abstract class NumberGenerator {
     private ArrayList observers = new ArrayList();
@@ -40,8 +40,8 @@ public abstract class NumberGenerator {
 }
 ```
 **RandomNumberGenerator**  
-RandomNumberGenerator类是NumberGenerator抽象类的子类，主要就是生成随机数  
-当execute()被调用的时候，会循环生成10次随机数，每次生成的随机数都保存起来并通知观察者们  
+RandomNumberGenerator类是NumberGenerator抽象类的子类，主要就是生成随机数。  
+当execute()被调用的时候，会循环生成10次随机数，每次生成的随机数都保存起来并通知观察者们。  
 ```java
 public class RandomNumberGenerator extends NumberGenerator {
     private Random random = new Random();
