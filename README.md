@@ -9,3 +9,4 @@
 - [状态模式（State）](https://github.com/handsome-fstar/design-pattern-java/tree/master/src/main/java/com/fstar/designpattern/state)
 - [享元模式（Flyweight）](https://github.com/handsome-fstar/design-pattern-java/tree/master/src/main/java/com/fstar/designpattern/flyweight)
 - [代理模式（Proxy）](https://github.com/handsome-fstar/design-pattern-java/tree/master/src/main/java/com/fstar/designpattern/proxy)
+- [命令模式（Command）](https://github.com/handsome-fstar/desigcn-pattern-java/tree/master/src/main/java/com/fstar/designpattern/ommand)
