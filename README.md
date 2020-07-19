@@ -1,5 +1,5 @@
 # 设计模式 Java实现
-设计模式 design-pattern，基于Java实现。大部分例子来源于《图解设计模式》，少部分来源于网络。
+设计模式(design-pattern)，基于Java实现。大部分例子来源于《图解设计模式》，少部分来源于网络。
 
 ## Example
 - [外观模式（Facade）](https://github.com/handsome-fstar/design-pattern-java/tree/master/src/main/java/com/fstar/designpattern/facade)
