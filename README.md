@@ -10,3 +10,4 @@
 - [享元模式（Flyweight）](https://github.com/handsome-fstar/design-pattern-java/tree/master/src/main/java/com/fstar/designpattern/flyweight)
 - [代理模式（Proxy）](https://github.com/handsome-fstar/design-pattern-java/tree/master/src/main/java/com/fstar/designpattern/proxy)
 - [命令模式（Command）](https://github.com/handsome-fstar/desigcn-pattern-java/tree/master/src/main/java/com/fstar/designpattern/ommand)
+- [解释器模式（Interpreter）](https://github.com/handsome-fstar/desigcn-pattern-java/tree/master/src/main/java/com/fstar/designpattern/interpreter)
