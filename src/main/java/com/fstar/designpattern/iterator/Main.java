@@ -1,4 +1,4 @@
-package com.fstar.designpattern.Iterator;
+package com.fstar.designpattern.iterator;
 
 public class Main {
     public static void main(String[] args) {

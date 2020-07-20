@@ -1,4 +1,4 @@
-package com.fstar.designpattern.Iterator;
+package com.fstar.designpattern.iterator;
 
 public interface Aggregate {
     public abstract Iterator iterator();

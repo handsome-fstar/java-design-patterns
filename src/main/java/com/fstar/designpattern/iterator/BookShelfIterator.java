@@ -1,4 +1,4 @@
-package com.fstar.designpattern.Iterator;
+package com.fstar.designpattern.iterator;
 
 public class BookShelfIterator implements Iterator {
     private BookShelf bookShelf;
