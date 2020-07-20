@@ -23,5 +23,4 @@ public class From implements Expression {
         }
         return where.interpret(ctx);
     }
-
 }

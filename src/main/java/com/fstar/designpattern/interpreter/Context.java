@@ -21,20 +21,15 @@ public class Context {
     private String table;
     private String column;
 
-    /**
-     * Index of column to be shown in result.
-     * Calculated in {@link #setColumnMapper()}
-     */
     private int colIndex = -1;
 
     /**
-     * Default setup, used for clearing the context for next queries.
-     * See {@link Context#clear()}
+     * 默认设置，下一次查询前需要改为默认设置。
      */
     private static final Predicate<String> matchAnyString = s -> s.length() > 0;
     private static final Function<String, Stream<? extends String>> matchAllColumns = Stream::of;
     /**
-     * Varies based on setup in subclasses of {@link Expression}
+     * 基于Expression的子类变化。
      */
     private Predicate<String> whereFilter = matchAnyString;
     private Function<String, Stream<? extends String>> columnMapper = matchAllColumns;
@@ -53,8 +48,8 @@ public class Context {
     }
 
     /**
-     * Clears the context to defaults.
-     * No filters, match all columns.
+     * 把context设置为默认状态。
+     * 没有过滤，匹配所有字段。
      */
     void clear() {
         column = "";
@@ -79,10 +74,6 @@ public class Context {
         return result;
     }
 
-    /**
-     * Sets column mapper based on {@link #column} attribute.
-     * Note: If column is unknown, will remain to look for all columns.
-     */
     private void setColumnMapper() {
         switch (column) {
             case "*":

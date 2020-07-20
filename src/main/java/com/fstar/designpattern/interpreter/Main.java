@@ -4,8 +4,9 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Expression query = new Select("name", new From("people"));
         Context ctx = new Context();
+
+        Expression query = new Select("name", new From("people"));
         List<String> result = query.interpret(ctx);
         System.out.println(result);
 
