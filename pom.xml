@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.fstar</groupId>
-	<artifactId>design-pattern-java</artifactId>
+	<artifactId>java-design-patterns</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>design-pattern-java</name>
+	<name>java-design-patterns</name>
 	<description>Java-based design patterns</description>
 
 	<properties>
