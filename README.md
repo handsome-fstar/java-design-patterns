@@ -5,6 +5,7 @@
 - [迭代器模式（Iterator）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/iterator)
 - [适配器模式（Adapter）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/adapter)
 - [模板模式（Template）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/template)
+- [工厂方法模式（Factory Method）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/factory_method)
 
 - [外观模式（Facade）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/facade)
 - [中介者模式（Mediator）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/mediator)
