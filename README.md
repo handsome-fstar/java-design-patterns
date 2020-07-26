@@ -10,7 +10,12 @@
 - [原型模式（Prototype）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/prototype)
 - [建造者模式（Builder）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/builder)
 - [抽象工厂模式（Abstract Factory）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/abstract_factory)
-
+- [桥接模式（Bridge）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/bridge)
+- [策略模式（Strategy）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/strategy)
+- [组合模式（Composite）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/composite)
+- [装饰器模式（Decorator）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/decorator)
+- [访问者模式（Visitor）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/visitor)
+- [责任链模式（Visitor）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/chain_of_responsibility)
 - [外观模式（Facade）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/facade)
 - [中介者模式（Mediator）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/mediator)
 - [观察者模式（Observer）](https://github.com/handsome-fstar/java-design-patterns/tree/master/src/main/java/com/fstar/designpattern/observer)
